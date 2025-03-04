@@ -64,3 +64,59 @@ Em ordem de relevância, avaliaremos:
 O projeto deverá ser hospedado em um repositório no seu GitHub. O link do repositório deverá ser fornecido por meio do formulário de Teste Técnico encaminhado ao seu e-mail. Não serão aceitos links de projetos enviados por outros meios.
 
 Demais instruções e regras serão instruídas nos formulários e nas comunicações do processo seletivo do qual você está participando.
+
+Guia de Instalação e Execução - BeTalent Frontend
+Este guia fornece instruções passo a passo para executar o projeto em sua máquina local.
+Pré-requisitos
+Antes de começar, certifique-se de ter instalado:
+
+Node.js (versão 14.x ou superior): Download Node.js
+Git: Download Git
+Yarn: Após instalar o Node.js, instale o Yarn com o comando:
+Copynpm install -g yarn
+
+
+Passos para Execução
+1. Clone o repositório
+bashCopygit clone https://github.com/SantanaYure/teste-pratico-frontend-react.git
+cd teste-pratico-frontend-react
+2. Instale as dependências
+bashCopyyarn install
+3. Execute o servidor de API mock (json-server)
+Abra um novo terminal na pasta do projeto e execute:
+bashCopyyarn server
+Isso iniciará o json-server na porta 3000, disponibilizando a API mock em http://localhost:3000/employees.
+4. Execute a aplicação React
+Em outro terminal (mantendo o json-server em execução), execute:
+bashCopyyarn dev
+A aplicação estará disponível em http://localhost:5173 (ou outra porta, caso a 5173 esteja ocupada).
+Estrutura do Projeto
+
+/src/components: Componentes React reutilizáveis
+/src/hooks: Hooks personalizados para gerenciamento de estado
+/src/types: Definições de tipos TypeScript
+/src/utils: Funções utilitárias como formatadores de data e telefone
+
+Funcionalidades
+
+Visualização de dados de funcionários em tabela (desktop) ou lista de cards (mobile)
+Pesquisa por nome, cargo ou telefone
+Design responsivo que se adapta a diferentes tamanhos de tela
+Formatação automática de datas e números de telefone
+
+Solução de Problemas
+
+API não está disponível: Verifique se o json-server está em execução no terminal separado
+Imagens não carregam: Verifique se a pasta public/assets contém as imagens necessárias
+Erros de TypeScript: Execute yarn tsc para verificar erros de tipagem
+
+Informações Adicionais
+Este projeto foi desenvolvido com:
+
+React 18
+TypeScript
+Vite
+CSS Modules
+json-server para API mock
+
+Em caso de dúvidas ou problemas, entre em contato através do GitHub ou pelo e-mail de contato fornecido.
