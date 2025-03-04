@@ -1,0 +1,40 @@
+:root {
+    /* Cores primárias */
+    --blue-primary: #0950FF;
+    --blue-10: #E1EBFF;
+    
+    /* Cores neutras */
+    --black: #1C1C1C;
+    --gray-20: #9E9E9E;
+    --gray-10: #DFDFDF;
+    --gray-05: #F2F2F2;
+    --white: #FFFFFF;
+    
+    /* Espaçamentos */
+    --spacing-xl: 80px;
+    --spacing-lg: 60px;
+    --spacing-md: 40px;
+    --spacing-sm: 32px;
+    --spacing-xs: 28px;
+    --spacing-xxs: 20px;
+    --spacing-tiny: 16px;
+    --spacing-micro: 8px;
+    --spacing-nano: 4px;
+    
+    /* Sombras */
+    --shadow-default: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    --shadow-elevated: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #F2F2F2;
+    color: #1C1C1C;
+    line-height: 1.5;
+  }

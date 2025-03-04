@@ -1,0 +1,44 @@
+.mainContent {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.pageTitle {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1C1C1C;
+  margin-right: 40px;
+}
+
+.noResults {
+  text-align: center;
+  padding: 40px;
+  color: #9E9E9E;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    padding: 32px 16px;
+  }
+  
+  .pageHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .pageTitle {
+    font-size: 20px;
+    margin-bottom: 32px;
+    margin-right: 0;
+  }
+}

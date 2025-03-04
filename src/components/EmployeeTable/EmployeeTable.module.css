@@ -1,0 +1,49 @@
+.tableContainer {
+    overflow-x: auto;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employeeTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+  }
+  
+  .tableHead {
+    background-color: #0950FF;
+    color: #FFFFFF;
+  }
+  
+  .tableHeader {
+    padding: 16px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .tableRow {
+    border-bottom: 1px solid #DFDFDF;
+  }
+  
+  .tableRow:last-child {
+    border-bottom: none;
+  }
+  
+  .tableRow:hover {
+    background-color: #F2F2F2;
+  }
+  
+  .tableCell {
+    padding: 16px;
+    font-size: 14px;
+    color: #1C1C1C;
+  }
+  
+  .employeePhoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }

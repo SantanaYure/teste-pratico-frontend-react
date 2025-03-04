@@ -1,0 +1,39 @@
+.header {
+    background-color: #FFFFFF;
+    padding: 0 40px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    position: relative;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 12.58px;
+    left: 21.41px;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .logoImage {
+    width: 91.19px;
+    height: 34px;
+    object-fit: contain;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 0 16px;
+    }
+    
+    .logo {
+      position: static;
+      padding: 0 10px;
+    }
+  }
