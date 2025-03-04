@@ -64,3 +64,78 @@ Em ordem de relevância, avaliaremos:
 O projeto deverá ser hospedado em um repositório no seu GitHub. O link do repositório deverá ser fornecido por meio do formulário de Teste Técnico encaminhado ao seu e-mail. Não serão aceitos links de projetos enviados por outros meios.
 
 Demais instruções e regras serão instruídas nos formulários e nas comunicações do processo seletivo do qual você está participando.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+BeTalent - Tabela de Funcionários
+Este projeto foi desenvolvido como parte do desafio técnico para Front-End da BeTalent. A aplicação exibe uma lista de funcionários em formato de tabela (desktop) ou lista de cards (mobile), com funcionalidades de pesquisa e visualização responsiva.
+🚀 Funcionalidades
+
+Visualização de dados em tabela (desktop) ou cards expansíveis (mobile)
+Pesquisa por nome, cargo ou telefone
+Design responsivo que se adapta a diferentes tamanhos de tela
+Formatação de datas e números de telefone
+Tratamento de estados de carregamento e erro
+
+🔧 Tecnologias Utilizadas
+
+React.js
+TypeScript
+Vite
+CSS Modules
+json-server (API mock)
+
+📋 Pré-requisitos
+Para executar este projeto, você precisará ter instalado:
+
+Node.js (versão 14.x ou superior)
+Yarn (recomendado) ou npm
+
+⚙️ Instalação e Execução
+
+**Clone o repositório**
+
+git clone https://github.com/SantanaYure/teste-pratico-frontend-react.git
+cd teste-pratico-frontend-react
+
+**Instale as dependências**
+
+yarn install
+# ou
+npm install
+
+**Execute o servidor de API mock**
+Em um terminal, inicie o json-server para simular a API:
+
+yarn server
+# ou
+npm run server
+
+**Execute a aplicação**
+Em outro terminal (mantendo o json-server em execução), inicie a aplicação:
+
+yarn dev
+# ou
+npm run dev
+
+**Acesse a aplicação**
+Abra seu navegador e acesse http://localhost:5173
+
+🔍**Estrutura do Projeto**
+
+src/
+  ├── components/        # Componentes React
+  ├── hooks/             # Custom hooks
+  ├── types/             # Definições de tipos
+  ├── utils/             # Funções utilitárias
+  ├── App.tsx            # Componente principal
+  └── main.tsx           # Ponto de entrada
+
+🐛 **Solução de Problemas**
+
+API não disponível: Certifique-se que o json-server está rodando (yarn server)
+Imagens não carregando: Verifique se a pasta public/assets contém as imagens necessárias
+
+🧠 Autor
+Desenvolvido por Yure Santana como parte do processo seletivo da BeTalent.
+
